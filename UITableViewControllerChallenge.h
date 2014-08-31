@@ -1,5 +1,5 @@
 //
-//  JTViewController.h
+//  UITableViewControllerChallenge.h
 //  UITableViewController Challenge Solution
 //
 //  Created by Joshua  Tan on 31/8/14.
@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface JTViewController : UIViewController
+@interface UITableViewControllerChallenge : UITableViewController
+
+@property (strong, nonatomic) NSMutableArray *tableDetails;
+
 
 @end
